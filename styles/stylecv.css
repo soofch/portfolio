@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e7e6e6;
+}
+
+.header {
+    background-color: #fabbbb;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #ffffff;
+    font-weight: bold;
+    background-color: rgb(147, 82, 193);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+p, li {
+    color: #333;
+}
+
+.lead {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.skills {
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: #9500ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
