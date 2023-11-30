@@ -1,0 +1,76 @@
+body {
+    background-image: url('https://imgfz.com/i/2MynF6I.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: black;
+    text-align: left;
+    margin-bottom: 70px; /* Ajuste para evitar que el pie de página oculte el contenido en pantallas pequeñas */
+  }
+  
+  h1, h3, h5 {
+    margin-bottom: 1rem;
+  }
+  
+  @media (min-width: 950px) {
+    .text-lg-start {
+      margin-right: 20rem !important; /* Ajusta el valor del margen izquierdo según tus preferencias */
+    }
+  
+    h1 {
+      font-size: 2.5rem;
+    }
+  
+    h3 {
+      font-size: 1.75rem;
+    }
+  
+    h5 {
+      font-size: 1.25rem;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .navbar-nav {
+      flex-direction: row !important;
+    }
+  
+    .navbar-nav .nav-item {
+      margin-right: 1rem;
+    }
+  
+    .navbar-toggler {
+      display: none;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    h3 {
+      font-size: 1.2rem;
+    }
+  
+    h5 {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 300px) {
+    .navbar-nav .nav-item {
+      margin-right: 0.5rem;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    h3 {
+      font-size: 1rem;
+    }
+  
+    h5 {
+      font-size: 0.8rem;
+    }
+  }
+  
